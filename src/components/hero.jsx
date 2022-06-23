@@ -102,6 +102,7 @@ const Wrapper = styled.section`
       border-radius: 1.7rem;
       padding: 0.2rem 1rem 0.2rem 0.5rem;
       grid-template-columns: 1fr auto;
+      background-color: white;
       input {
         border-radius: 1.7rem;
         padding: 1rem;

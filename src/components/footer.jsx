@@ -93,6 +93,7 @@ const Wrapper = styled.footer`
 
   .copyright {
     color: var(--clr-white);
+    text-align: center;
     span {
       text-transform: capitalize;
       text-decoration: underline;

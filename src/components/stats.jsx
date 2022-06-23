@@ -68,8 +68,11 @@ const Wrapper = styled.section`
 
   .tiles-wrapper {
     display: grid;
-    grid-template-columns: repeat(2, minmax(200px, 300px));
+    grid-template-columns: 1fr;
     gap: 1rem 1rem;
+  }
+
+  .tiles-wrapper {
     margin-bottom: 4rem;
 
     article {
@@ -122,6 +125,12 @@ const Wrapper = styled.section`
         border-radius: 1rem;
         font-size: 1rem;
       }
+    }
+  }
+
+  @media (min-width: 500px) {
+    .tiles-wrapper {
+      grid-template-columns: repeat(2, minmax(200px, 300px));
     }
   }
 
