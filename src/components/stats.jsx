@@ -36,7 +36,7 @@ const Stats = () => {
 
       <section className="consulting">
         <figure>
-          <img src={conImg} alt="IMAGE" />
+          <img src={conImg} alt="" />
         </figure>
 
         <div>

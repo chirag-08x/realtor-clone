@@ -38,3 +38,36 @@ export const data = [
     address: "5541 abc xyz, paris",
   },
 ];
+
+export const navlinks = [
+  {
+    id: uid(),
+    text: "buy",
+    redirect: "javascript:void(0)",
+  },
+  {
+    id: uid(),
+    text: "sell",
+    redirect: "javascript:void(0)",
+  },
+  {
+    id: uid(),
+    text: "mortgage",
+    redirect: "javascript:void(0)",
+  },
+  {
+    id: uid(),
+    text: "find realtors",
+    redirect: "javascript:void(0)",
+  },
+  {
+    id: uid(),
+    text: "my home",
+    redirect: "javascript:void(0)",
+  },
+  {
+    id: uid(),
+    text: "news & insights",
+    redirect: "javascript:void(0)",
+  },
+];

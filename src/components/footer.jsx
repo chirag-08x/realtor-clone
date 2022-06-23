@@ -57,6 +57,7 @@ export default Footer;
 const Wrapper = styled.footer`
   background-color: var(--clr-grey-2);
   padding: 2rem 1rem;
+  border-top: 3px solid var(--clr-white);
 
   display: grid;
   place-items: center;

@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import logo from "../assets/svgs/svg4.svg";
+import { navlinks } from "../helper/helper";
 
 const Navbar = () => {
   return (
@@ -11,12 +12,14 @@ const Navbar = () => {
         </div>
 
         <div className="nav-links">
-          <a href="/#">buy</a>
-          <a href="/#">sell</a>
-          <a href="/#">mortgage</a>
-          <a href="/#">find realtors</a>
-          <a href="/#">my home</a>
-          <a href="/#">news & insights</a>
+          {navlinks.map((item) => {
+            const { id, text, redirect } = item;
+            return (
+              <a key={id} href={redirect}>
+                {text}
+              </a>
+            );
+          })}
         </div>
 
         <div className="nav-btns">

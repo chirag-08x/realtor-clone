@@ -25,4 +25,6 @@ const Home = () => {
 
 export default Home;
 
-const Wrapper = styled.main``;
+const Wrapper = styled.main`
+  position: relative;
+`;

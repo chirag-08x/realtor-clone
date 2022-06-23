@@ -65,3 +65,8 @@ button {
   background-position: center;
   background-size: cover;
 }
+
+.open-sidebar {
+  transform: translateX(0);
+  transition: var(--main-transition);
+}
