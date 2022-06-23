@@ -36,6 +36,7 @@ export default Loan;
 const Wrapper = styled.section`
   display: none;
   padding-top: 2rem;
+  overflow: hidden;
   background-color: #cccccc;
   @media (min-width: 768px) {
     display: grid;

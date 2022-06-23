@@ -58,6 +58,7 @@ const Wrapper = styled.section`
   padding: 4rem 0;
   display: grid;
   place-items: center;
+  overflow: hidden;
 
   .title {
     text-transform: capitalize;
