@@ -11,6 +11,7 @@
 
   --clr-black: #000;
   --clr-white: #fff;
+  --clr-grey: #f7f7f7;
 
   --font-primary: "Roboto", sans-serif;
 
@@ -54,4 +55,12 @@ button {
   ::placeholder {
     font-size: 1.085rem;
   }
+}
+
+.trends {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./assets/static/img9.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }

@@ -1,4 +1,4 @@
-import { Sidebar, Navbar, Hero } from "../components";
+import { Sidebar, Navbar, Hero, Stats, Trends, Loan } from "../components";
 import styled from "styled-components";
 
 const Home = () => {
@@ -7,6 +7,9 @@ const Home = () => {
       <Sidebar />
       <Navbar />
       <Hero />
+      <Stats />
+      <Trends />
+      <Loan />
     </Wrapper>
   );
 };
