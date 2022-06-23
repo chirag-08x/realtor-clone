@@ -44,7 +44,6 @@ const Wrapper = styled.section`
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-color: navy;
   width: 100%;
   height: 25rem;
   display: grid;
