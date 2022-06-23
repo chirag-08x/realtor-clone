@@ -1,4 +1,12 @@
-import { Sidebar, Navbar, Hero, Stats, Trends, Loan } from "../components";
+import {
+  Sidebar,
+  Navbar,
+  Hero,
+  Stats,
+  Trends,
+  Loan,
+  Footer,
+} from "../components";
 import styled from "styled-components";
 
 const Home = () => {
@@ -10,6 +18,7 @@ const Home = () => {
       <Stats />
       <Trends />
       <Loan />
+      <Footer />
     </Wrapper>
   );
 };
